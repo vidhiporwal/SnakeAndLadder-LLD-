@@ -11,7 +11,7 @@ import lombok.Setter;
 @EqualsAndHashCode
 public class Jumper {
     int startPoint;
-    int endPoint;
+    int endPoint;//x
 
     public Jumper(int startPoint, int endPoint) {
         this.startPoint = startPoint;
